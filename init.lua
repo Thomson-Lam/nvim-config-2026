@@ -29,7 +29,6 @@ rtp:prepend(lazypath)
 require("lazy").setup({
 	spec = {
 		{ import = "plugins" }, -- Automatically loads all files in lua/plugins/
-		{ import = "plugins.dev" }, -- Load plugins from lua/plugins/dev/
 	},
 
 	ui = {
